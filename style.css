@@ -1,0 +1,273 @@
+:root {
+  --button-color-red: #d1215c;
+  --button-color-green: #2d854a;
+  --button-color-red-hover: #991844;
+  --button-color-green-hover: #1e5c33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1% 5%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li a {
+  display: block;
+  padding: 14px 30px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  padding-left: 30px;
+}
+
+/* MAIN */
+
+main {
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('pictures/top10berlin_interior-design_hallesches-haus001.jpeg');
+  color: white;
+}
+
+.header h2 {
+  font-size: 4rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+.header-desc {
+  margin-top: 40px;
+  color: #6e6e6e;
+}
+
+.header-desc h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.header-desc p {
+  font-size: 20px;
+  line-height: 2.5;
+  margin-bottom: 20px;
+}
+
+/* .header-desc  */
+.btn {
+  border: none;
+  padding: 15px 30px;
+  margin-left: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.header-desc .btn-left {
+  background-color: var(--button-color-green);
+}
+
+.header-desc .btn-left:hover {
+  background-color: var(--button-color-green-hover);
+}
+
+.header-desc .btn-right {
+  background-color: var(--button-color-red);
+}
+
+.header-desc .btn-right:hover {
+  background-color: var(--button-color-red-hover);
+}
+
+.header-desc img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header-desc .second-p {
+  line-height: 1.5;
+}
+
+.header-desc .second-h2 {
+  margin-top: 30px;
+}
+
+/* FEATURES */
+
+.features {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 70px;
+  color: #6e6e6e;
+}
+
+.features img {
+  width: 45%;
+  float: left;
+  margin-right: 90px;
+  margin-top: 40px;
+}
+
+.features .first-img-descr {
+  width: 25%;
+  display: inline-block;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.features hr {
+  width: 200px;
+}
+
+.features p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+/* .features hr {
+  /* border: none; */
+/* } */
+
+/* .features hr:after {
+  content: '∿∿∿∿∿∿∿∿'; */
+/* Ratio -> font-size/letter-spacing = 6.25 */
+/* letter-spacing: -9.6px;
+  font-size: 60px; */
+/* } */
+
+.second-img-descr {
+  margin-top: 100px;
+}
+
+.second-img-descr .pic-2 {
+  margin: 0;
+  float: right;
+}
+
+.second-img-descr p {
+  width: 30%;
+}
+
+.features .btn {
+  margin: 30px 0;
+  background-color: var(--button-color-red);
+}
+
+.features .btn:hover {
+  background-color: var(--button-color-red-hover);
+}
+
+/* SECTION features-2 */
+
+.features-2 {
+  margin: 100px 0;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+.features-2 img {
+  width: 100%;
+}
+
+.features-2 .container-1 {
+  position: relative;
+}
+
+.features-2 .description {
+  padding: 30px;
+
+  width: 30%;
+  background-color: white;
+  position: absolute;
+  left: 60%;
+  bottom: 5%;
+}
+
+.features-2 h3 {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.features-2 hr {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.features-2 p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+
+.features-2 .container-2 {
+  margin: 50px 0;
+  position: relative;
+}
+
+.container-2 .description {
+  left: 5%;
+  right: 60%;
+  bottom: 10%;
+}
+
+.description .btn-link {
+  padding: 13px 17px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.features-2 .btn-link:hover {
+  border-color: #eb3f67;
+  color: #eb3f67;
+}
+
+.features-2 .btn-find {
+  background-color: var(--button-color-red);
+}
+
+.features-2 .btn-find:hover {
+  background-color: var(--button-color-red-hover);
+}
+
+.container-3 {
+  margin: 50px 0;
+}
